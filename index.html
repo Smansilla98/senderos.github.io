@@ -1,12 +1,268 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Senderos 2022</title>
+    <title>Blackparadox</title>
+
+    <!--SEO natural-->
+    <meta name="author" content="Santiago Mansilla">
+    <meta name="copyright" content="Copyright 2022. Todos los derechos reservados">
+    <meta name="email" content="santeemansilla@gmail.com">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Portfolio personal y profesional">
+
+    <!--Social Cards-->
+    <meta property="og:url" content="https://www.blackparadox.com">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Blackparadox - Fotografia">
+    <meta property="og:description" content="Portfolio personal y profesional">
+    <meta property="og:type" content="https://www.blackparadox.com/images/logo_blackparadox.svg">
+
+
+    <!-- Bootstrap 4 CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+
+    <!-- Estilos-->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main.scss">
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon/favicon.ico" type="image/x-icon">
+
+    <!--Slide sliprry-->
+    <link rel="stylesheet" href="css/slippry.css">
+
+    <!--CDN fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
 </head>
 <body>
-    <h1>Senderos 2022 | tienda </h1>
+    <!-- Navegacion-->
+    <nav id="nav">
+        <div class="container-fluid">
+            <div class="row">
+                <!--Logo-->
+                <div class="col-xl-3">
+                    <a href="https//www.blackparadox.com" class="logo">
+                        <img src="images/logo.svg" alt="Logo Backparadox">
+                    </a>
+                </div>
+                <!--Finalización logo-->
+                <!--Nuestros links-->
+                <div class="col-xl-9">
+                    <ul>
+                        <li class="link-active"><a href="index.html">Inicio</a></li>
+                        <li><a href="index.html#nosotros">Nosotros</a></li>
+                        <li><a href="portafolio.html">Portafolio</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--Fin navegacion-->
+
+    <!--Slider-->
+    <section id="slider">   
+        <ul id="slippry">
+            <li>
+                <h3 class="left top_250">Tus momentos más especiales</h3>
+                <p class="left top_300">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere cupiditate sunt provident hic. Aspernatur quod architecto corporis, odit debitis exercitationem aut possimus nostrum placeat sapiente, in, perferendis nihil qui amet.
+                </p>
+                <button class="left top_375 black">Escribenos</button>
+                <img src="images/slide_01.jpg">
+            </li>
+            <li>
+                <h3 class="right top_250 white_bg">lorem impsum</h3>
+                <p class="right top_300 white_bg">lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                <button class="right top_375 black">Escribenos</button>
+                <img src="images/slide_02.jpg">
+            </li>
+            <li>
+                <h3 class="left top_250 white_bg">Lorem impsu</h3>
+                <p class="left top_300 white_bg">lorem ipsu</p>
+                <button class="left top_400 black">Contactanos</button>
+                <img src="images/slide_03.jpg">
+            </li>
+        </ul>
+    </section>
+    <!--Fin slider-->
+
+    <!--Area de nosotros-->
+    <div class="pad_200" id="nosotros">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 class="center main-title">Estos somos nosotros</h1>
+                </div>
+            </div>
+            <br><br><br>
+            <div class="row">
+                <div class="d-flex align-items-center">
+                    <div class="col-xl-6">
+                        <div class="diamante rounded-circle">
+                            <!--Imagen de fondo-->
+                        </div>
+                    </div>
+                    <div class="col-xl-6">
+                        <h3><strong>Blackparadox</strong> <span>va a tus eventos</span></h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at quam aliquet, volutpat turpis in, lacinia est.
+                        Etiam finibus odio non interdum laoreet. Nullam ullamcorper arcu lacus, nec tincidunt augue consectetur et. Interdum et
+                        malesuada fames ac ante ipsum primis in faucibus. Vestibulum pretium lacus ut dapibus posuere. Sed eu tristique eros.
+                        Sed gravida nisi metus, a tincidunt nibh ullamcorper scelerisque. Nunc sed sapien et diam tristique faucibus. Cras
+                        volutpat eros eget magna fringilla euismod. Nam sed felis sed diam molli</p>
+                        <button>Contactanos</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Finalizacion de nosotros-->
+
+    <!--Area de servicios-->
+    <div class="pad_200">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 class="center main-title">Nuestros servicios</h1>
+                    <h3 class="center">Capturamos tu <strong>vida</strong></h3>
+                </div>                
+            </div>    
+            <br><br><br>
+            <div class="row">
+                <div class="col-xl-4 center">
+                    <img src="images/square_03.jpg" alt="eventos" class="rounded-circle servicio-img">
+                    <h2>Eventos</h2>
+                    <p> lorem ipsum dolor sit amet, consectetur adip</p>
+                    <button>Leer más &raquo;</button>
+                </div>
+                <div class="col-xl-4 center">
+                    <img src="images/square_02.jpg" alt="Bodas" class="rounded-circle servicio-img">
+                    <h2>Bodas</h2>
+                    <p> lorem ipsum dolor sit amet, consectetur adip</p>
+                    <button>Leer más &raquo;</button>
+                </div>
+                <div class="col-xl-4 center">
+                    <img src="images/square_10.jpg" alt="xv años" class="rounded-circle servicio-img">
+                    <h2>xv años</h2>
+                    <p> lorem ipsum dolor sit amet, consectetur adip</p>
+                    <button>Leer más &raquo;</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--Finalizacion de servicios-->
+
+    <!--Footer-->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col xl-2">
+                    <p class="white"><strong>Mapa del sitio</strong></p>
+                    <ul class="white">
+                        <li class="small">Inicio</li>
+                        <li class="small">Nosotros</li>
+                        <li class="small">Portafolio</li>
+                        <li class="small">Contacto</li>
+                        <hr>
+                        <li class="small">Contrato</li>
+                        <li class="small">Servicios</li>
+                        <li class="small">Facturación</li>
+                        <li class="small">Términos y condiciones</li>
+                    </ul>
+                </div>
+                <div class="col-xl-6">
+                    <p class="white"><strong>Tumblr</strong></p>
+                    <img src="images/square_01.jpg" alt="Imagen 01" class="tumblr">
+                    <img src="images/square_02.jpg" alt="Imagen 02" class="tumblr">
+                    <img src="images/square_03.jpg" alt="Imagen 03" class="tumblr">
+                    <img src="images/square_04.jpg" alt="Imagen 04" class="tumblr">
+                    <img src="images/square_05.jpg" alt="Imagen 05" class="tumblr">
+                    <img src="images/square_06.jpg" alt="Imagen 06" class="tumblr">
+                    <img src="images/square_07.jpg" alt="Imagen 07" class="tumblr">
+                    <img src="images/square_08.jpg" alt="Imagen 08" class="tumblr">
+                    <img src="images/square_09.jpg" alt="Imagen 09" class="tumblr">
+                    <img src="images/square_10.jpg" alt="Imagen 10" class="tumblr">
+                </div>
+                <div class="col-xl-4">
+                    <p class="white"><strong>Contacto</strong></p>
+                    <ul class="white">
+                        <li class="small">+54 9 1126038245</li>
+                        <li class="small">santeemasilla@gmail.com</li>
+                        <li class="small">Santiago Mansilla / <i>Coso</i></li>
+                    </ul>
+                    <br>
+                    <p class="white"><strong>Redes sociales</strong></p>
+                    <ul class="social-networks social-footer">
+                        <li><i class="fab fa-facebook"></i></li>
+                        <li><i class="fab fa-twitter"></i></li>
+                        <li><i class="fab fa-youtube"></i></li>
+                        <li><i class="fab fa-tumblr"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <div class="copy">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p class="small center"> &copy; 2022 Todos los derechos reservados por <a href="#">Blackaradox</a></p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!--Finalizacion de footer-->
+
+    <!-- Bootstrap 4 CDN js -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+
+    <script src="js/slippry.min.js"></script>
+
+    <!--Activacion y scripts-->
+    <script>
+        $(document).ready(function(){
+             /**Activando slippry **/
+             $("#slippry").slippry([
+                 
+             ])
+
+            /*Detectar el ancho del diamante*/
+            var dn_width = $('.diamante').width();
+            $(".diamante").css({
+                height:dn_width
+            });
+
+
+
+            /*Agrgamos la clase al hacer scroll a la barra d navegevegación, despues de llegar al contenedor de nosotros*/
+            var slider = $("#slider").height();
+			$(window).scroll(function(){
+				var scroll = $(window).scrollTop();
+				if (scroll > ($('#nosotros').offset().top - 300)) {
+					$('#nav').addClass('nav_overlay');
+				} else {
+					$('#nav').removeClass('nav_overlay');
+				}
+			});
+			$(window).scroll();
+        })
+
+
+        
+
+    </script>
+    
+
 </body>
 </html>
